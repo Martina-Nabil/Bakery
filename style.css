@@ -1,0 +1,461 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.header .nav .image{
+   float: left;
+   margin: 20px 60px;
+}
+
+.header .nav .menu{
+   float: right;
+
+}
+
+.header .nav .menu ul{
+    margin: 20px 60px;
+}
+
+.header .nav .menu li{
+    display: inline-block;
+    padding-inline: 20px;
+   
+}
+
+.header .nav .menu a{
+    color: #fff;
+    font-size: 20px;
+}
+    
+
+
+.header {
+    background-image: url(Images/background.jpg);
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Alegreya', serif;
+
+
+}
+
+
+.header .caption{
+    width: 58%;
+    margin: 100px auto;
+    
+}
+
+
+
+.header .caption h3 {
+    font-size: 30px;
+    font-family: 'Alegreya', serif;
+    padding-block: 15px;
+
+
+}
+
+.header .caption h1 {
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+
+
+}
+
+.header .caption p {
+    font-size: 28px;
+    font-family: 'Alegreya', serif;
+    padding-bottom: 25px;
+
+
+}
+
+.header .caption .learn {
+    padding: 15px 28px;
+    border: none;
+    background-color: rgb(142, 119, 84);
+    border: 3px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px 0px 12px;
+
+
+}
+
+.header .caption .contact {
+    padding: 15px 28px;
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    margin: 0px 0px 12px;
+
+}
+
+
+
+.about{
+    margin-top: 80px;
+
+}
+
+.about .image {
+    display: inline-block;
+    width: 40%;
+
+}
+.about .image img {
+    width: 100%;
+
+}
+
+.about .caption {
+    width: 45%;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+    padding-top: 70px;
+
+
+}
+
+
+.about .caption h2 {
+    font-family: 'Alegreya', serif;
+    color: RGB(48, 48, 48);
+    font-size: 32px;
+    font-weight: 400;
+   
+}
+
+.about .caption p {
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-block: 30px ;
+
+
+}
+
+.about .caption ul li{
+    font-size: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #686868;
+    margin-bottom: 10px;
+
+
+}
+
+.about .caption .list-img{
+    display: inline-block;
+    border: 1px solid #e0d9d9;
+    border-radius: 50%;
+    
+}
+
+
+
+.about .caption .list-text{
+display: inline-block;
+width: 400px;
+vertical-align: 15px;
+margin-left: 15px;
+}
+
+.about .caption .list-img img{
+width: 45px;
+
+}
+
+
+
+
+.location {
+    margin-top: 80px;
+    background-color: #F8F8F8;
+}
+
+.location .container .caption {
+    display: inline-block;
+    width: 45%;
+    margin-top: 80px;
+    vertical-align: top;
+}
+
+
+
+.location .container .image{
+    width: 40%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.location .container .image img{
+    width: 100%;
+}
+
+
+
+.location .container .caption h2 {
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 70px;
+
+}
+
+.location .container .caption p {
+    font-size: 20px;
+    line-height:31.62px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 20px;
+
+}
+
+
+
+.baking {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.baking .container h3 {
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 20px;
+    ;
+}
+
+.baking .container p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #888888;
+    font-size: 20px;
+    font-weight: 400;
+    line-height:31.62px;
+
+
+
+
+}
+
+.baking .container .baking-content {
+
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.baking .baking-content img {
+    width: 90%;
+}
+
+
+.baking .container .baking-content h4 {
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.baking .container .baking-content p {
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    line-height: 40px
+}
+
+.information {
+    margin-top: 80px;
+    background-color: #F8F8F8;
+}
+
+.information .container .information-content {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    float: left;
+    width: 40%;
+}
+
+
+.information .container .information-map{
+    float: right;
+    width :40%;
+    /* margin-right: 40px; */
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.information .container .information-content h2 {
+    font-family: 'Alegreya', serif;
+    color: #303030;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+}
+
+.information .container .information-content p {
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+
+
+}
+
+
+.information .container .information-content .list-img{
+    display: inline-block;
+    background-color: #8E7754;
+    border-radius: 50%;
+    
+}
+
+
+.information .container .information-content .list-img img{
+    width: 40px;
+    
+
+}
+
+.information .container .information-content .list-text{
+    display: inline-block;
+    color: #686868;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 30px;
+    vertical-align: 15px;
+    margin-left: 15px;
+    
+}
+
+.contact{
+    background-color:#403D38;
+    margin-top: 80px;
+}
+
+
+.contact .container .contact-caption{
+    float: left;
+    width: 23%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+}
+
+
+
+.contact .container .contact-caption h4 {
+    color: #FFFFFF;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    
+
+}
+
+.contact .container .contact-caption p {
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 30px;
+    
+
+
+}
+
+.contact .container .contact-caption li {
+    color: #969696;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 7px; 
+    padding-bottom: 7px;
+    line-height: 30px;
+
+
+}
+
+.contact .container .contact-caption ul .bd{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+
+
+
+.footer {
+    background-color: #353330;
+
+}
+.footer .footer-contact{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-block: 50px;
+}
+
+
+.footer .footer-contact p {
+    color: #777777;
+    font-size: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+
+
+} 
